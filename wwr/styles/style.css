@@ -269,4 +269,8 @@ footer {
     footer {
         margin-top: 25px;
     }
+
+    .home-grid {
+        grid-template-columns: 1/10;
+    }
 }
