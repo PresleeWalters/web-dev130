@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+div {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color:#E2856E ;
+    color:#88A2AA;
+    display:grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a{
+    text-align: center;
+    color:#2f4a85;
+    font-family: Righeous;
+    text-decoration-color: #E7C24F;
+    text-decoration-style:double;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color:#F42C04 ;
+    color:white;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+body {
+    background-color: #E7C24F;
+    margin:0;
+    padding:0;
+}
+
+h2{
+    margin:0;
+}
+
+.home-title {
+    color:#38686A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top:10px;
+}
+
+h4{
+    color:#396E94;
+}
+
+.mymusic {
+    color:#2f4a85;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top:50px;
+    border-radius: 5px;
+}
+
+.mymusic:hover {
+    color:white;
+}
+
+
+footer{
+    color:#2f4a85;
+    padding: 25px 50px;
+    margin-top:200px;
+}
+
+footer a{
+    color:#2f4a85;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#e85112;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.icon {
+    width:80px;
+    padding-top:10px;
+}
+
+footer p{
+    font-size:1.2em;
+}
+
+footer p a:hover{
+    text-decoration:underline;
+}
+
+#logo_link{
+    padding-top:5px;
+    padding-top:5px;
+    justify-self:center;
+    align-self:center;
+}
+
+.card-img{
+    border: 10px solid #F42C04;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #2f4a85;
+    
+}
+
+card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+}
+
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+
+footer {
+    background-color:#ffb162;
+    padding: 25px 50px;
+    margin-top:200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.msg {
+    background-color: #F42C04;
+    line-height: 1.5em;
+    padding:35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #396E94;
+}
+
+#title-msg h1 {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row:1/2;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+
+    .home-grid {
+        grid-template-columns: 1/10;
+    }
+}
