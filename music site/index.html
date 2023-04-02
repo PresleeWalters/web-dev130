@@ -8,56 +8,6 @@
     <title>Home</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-</style>
-</head>
-<body>
-
-<div class="container">
-  <img src="images/logo.png" alt="logo" class="image">
-  <div class="overlay">
-    <div class="text">Welcome to my page !!</div>
-  </div>
-</div>
 
 </head>
 <body>
@@ -74,14 +24,69 @@
         </nav>
     </header>
 
+<style>
+     .container {
+       position: relative;
+       width: 50%;
+     }
+        
+        .image {
+          display: block;
+          width: 50%;
+          height: auto;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #6f7364;
+        }
+        
+        .container:hover .overlay {
+          opacity: 1;
+        }
+        
+        .text {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+          font-family: Righteous;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="container">
+          <img src="images/welcome.jpg" alt="logo" class="image">
+          <div class="overlay">
+            <div class="text">welcome to my music page !!</div>
+          </div>
+        </div>
+
     <section id="title-msg">
         <h1 class="home-title">Preslee Official Music !</h1>
         <div class="button-box">
             <a class="mymusic" href="goals.html"> My Music !!</a>
         </div>
     </section>
-
-    <p>This is all about me!! </p>
+    <div class="indexgrid">
+    <div class="textarea">
+    <h4>This is all about me!! </h4>
     <p>I started music when I was in about 4th grade. I have loved and obsessed over it 
         ever since. I began voice lessons shortly after. My teacher was absolutely incredible.
         He influenced my love and interest in music more than he knows. We worked together on
@@ -92,9 +97,10 @@
         also obsessed with concerts. They've become bucketlist items for me. I am so blessed to
         have music in my life and I couldn't imagine my life without it. 
     </p>
-    <img class="homeimages1" src="./images/instraments-home.jpg" alt="instraments">
-    <img class="homeimages2" src="./images/record-home.jpg" alt="Record">
-
+    </div>
+    <img class="homeimages1" src="images/instraments-home.jpg" width="300" height="250" alt="image for page">
+    <img class="homeimages2" src="images/record-home.jpg" width="300" height="250" alt="image for page">
+    </div>
     <footer>
         <p>Preslee Official Music &copy; 2023 - Preslee Walters</p>
         <p><a href="site-plan.html"> -Site Plan</a> </p>
